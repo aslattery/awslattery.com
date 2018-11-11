@@ -1,0 +1,97 @@
+@import 'definitions.less';
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    color: @charcoal;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+}
+
+main {
+    margin-top: 3.33rem;
+    min-height: 93vh;
+}
+
+img {
+    border-style: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+textarea {
+  overflow: auto;
+}
+
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+.cls {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    &.il {
+        .flex-row();
+    }
+    dd, dt, li, {
+        margin: 0;
+        padding: 0;
+    }
+}
