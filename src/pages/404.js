@@ -5,6 +5,11 @@ import DefaultLayout from '../layouts/Default';
 
 const NotFoundPage = () => (
     <DefaultLayout>
+        <Helmet>
+            <meta charSet="utf-8" />
+            <html lang="en" />
+            <title>404</title>
+        </Helmet>
         <h1>404</h1>
     </DefaultLayout>
 );
