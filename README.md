@@ -1,2 +1,3 @@
 # awslattery.com
-WIP.
+
+Coming soon.
