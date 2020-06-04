@@ -1,3 +1,3 @@
 # awslattery.com
 
-Coming soon.
+Coming soon. In 2020.
